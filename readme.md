@@ -1,1 +1,1 @@
-Slide & Slide JQuery plugin lavet
+Slide & fade JQuery plugin lavet
