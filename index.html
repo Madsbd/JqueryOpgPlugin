@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Plugin skabelon</title>
+	
+	<meta name="robots" content="All">
+	<meta name="author" content="Udgiver">
+	<meta name="copyright" content="Information om copyright">
+	
+	<link href="css/hiide.css" rel="stylesheet" type="text/css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<button class="hideBtn">Væk med dig</button>
+
+<div class="hideDiv"><img src="https://source.unsplash.com/random/200x200"></div>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script src="js/hiide.js"></script>
+	<script>
+	$(document).ready(function() {
+	
+		$(".tabsContainer").hiide({
+		
+		});
+	});
+	</script>
+</body>
+</html>
