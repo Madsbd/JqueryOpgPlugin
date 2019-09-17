@@ -1,0 +1,15 @@
+.hideBtn{
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.hideBtn:hover{
+    background-color: aquamarine;
+    color: ghostwhite;
+}
+
+.hideDiv img{
+    border-radius: 10px;
+}
